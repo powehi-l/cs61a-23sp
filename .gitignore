@@ -1,4 +1,5 @@
 .vscode/*
 *.zip
 .ok*
-**/__pycache/*
+**/__pycache__/*
+**/tests/*
