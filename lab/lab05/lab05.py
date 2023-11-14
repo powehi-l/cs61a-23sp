@@ -246,7 +246,9 @@ def coords(fn, seq, lower, upper):
     [[-2, 4], [1, 1], [3, 9]]
     """
     "*** YOUR CODE HERE ***"
-    return [[x,fn(x)] for x in seq if fn(x) >= lower and fn(x) <= upper]
+    # return [[x,fn(x)] for x in seq if fn(x) >= lower and fn(x) <= upper]
+    return [[x, fn(x)] for x in seq if lower <= fn(x) <= upper]
+
 
 
 def change_abstraction(change):
