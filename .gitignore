@@ -3,3 +3,5 @@
 .ok*
 **/__pycache__/*
 **/tests/*
+**/editor/*
+scheme
